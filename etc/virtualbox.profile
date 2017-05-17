@@ -7,6 +7,8 @@ noblacklist ${HOME}/.VirtualBox
 noblacklist ${HOME}/VirtualBox VMs
 noblacklist ${HOME}/.config/VirtualBox
 
+mkdir ~/.VirtualBox
+whitelist ~/.VirtualBox
 mkdir ~/VirtualBox VMs
 whitelist ~/VirtualBox VMs
 mkdir ~/.config/VirtualBox
